@@ -1,0 +1,18 @@
+{
+    "sourceFile": "RUNNING_SIMPLIFIED.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1745991926153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1745991926153,
+            "name": "Commit-0",
+            "content": "# Simplified Guide: Running TeaBot Without LLM\r\n\r\nIf you're having trouble installing the optional LLM component, you can still use TeaBot with its emotion detection and fallback response system. Here's how:\r\n\r\n## Quick Start\r\n\r\n1. **Install the required dependencies**:\r\n   ```bash\r\n   pip install streamlit transformers torch numpy pandas\r\n   ```\r\n\r\n2. **Run the application**:\r\n   ```bash\r\n   streamlit run app.py\r\n   ```\r\n\r\nThat's it! The application will start and open in your browser, running in fallback mode.\r\n\r\n## What Works in Fallback Mode\r\n\r\nEven without an LLM, TeaBot can:\r\n- Detect emotions in text using the HuggingFace transformer model\r\n- Provide teaching advice based on detected emotions\r\n- Maintain conversation history\r\n- Display a clean, mobile-friendly chat interface\r\n\r\nThe only difference is that responses come from predefined templates rather than being dynamically generated.\r\n\r\n## If You Want LLM Features Later\r\n\r\nWhen you're ready to add LLM capabilities:\r\n\r\n1. Install Visual Studio Build Tools with C++ development components\r\n2. Install llama-cpp-python:\r\n   ```bash\r\n   pip install llama-cpp-python --prefer-binary\r\n   ```\r\n3. Download a GGUF model from Hugging Face\r\n4. Place it in the models directory or upload it through the app\r\n5. Select and load it in the app's sidebar\r\n\r\n## Troubleshooting\r\n\r\n- **\"streamlit: command not found\"**: Make sure you've installed streamlit correctly. Try running `python -m streamlit run app.py` instead.\r\n- **Transformer model errors**: Check your internet connection, as the model may need to be downloaded the first time you run the app.\r\n\r\nFor more detailed instructions, see the full RUNNING.md file. "
+        }
+    ]
+}

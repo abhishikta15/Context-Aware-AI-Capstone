@@ -1,0 +1,26 @@
+{
+    "sourceFile": "requirements.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1745990939424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1745991846052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,11 @@\n sentencepiece>=0.1.99\r\n protobuf>=3.19.6\r\n accelerate>=0.20.0\r\n \r\n-# LLM dependencies\r\n-llama-cpp-python>=0.2.0\r\n-# Note: If installation fails, use: pip install llama-cpp-python --prefer-binary \n\\ No newline at end of file\n+# Optional LLM dependencies (comment out if installation fails)\r\n+# For basic functionality, you can comment out the line below\r\n+# llama-cpp-python>=0.2.0\r\n+\r\n+# Note: To install llama-cpp-python:\r\n+# Option 1 (binary): pip install llama-cpp-python --prefer-binary\r\n+# Option 2 (GPU): CMAKE_ARGS=\"-DLLAMA_CUBLAS=on\" pip install llama-cpp-python --no-cache-dir \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1745993792475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,11 @@\n # Optional LLM dependencies (comment out if installation fails)\r\n # For basic functionality, you can comment out the line below\r\n # llama-cpp-python>=0.2.0\r\n \r\n+# Optional Gemini API dependencies\r\n+# For cloud-based LLM instead of local models\r\n+google-genai>=0.5.0\r\n+\r\n # Note: To install llama-cpp-python:\r\n # Option 1 (binary): pip install llama-cpp-python --prefer-binary\r\n # Option 2 (GPU): CMAKE_ARGS=\"-DLLAMA_CUBLAS=on\" pip install llama-cpp-python --no-cache-dir \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1745990939424,
+            "name": "Commit-0",
+            "content": "# Core dependencies\r\nstreamlit>=1.24.0\r\ntransformers>=4.30.0\r\ntorch>=2.0.0\r\nnumpy>=1.24.0\r\npandas==2.0.0\r\nsentencepiece>=0.1.99\r\nprotobuf>=3.19.6\r\naccelerate>=0.20.0\r\n\r\n# LLM dependencies\r\nllama-cpp-python>=0.2.0\r\n# Note: If installation fails, use: pip install llama-cpp-python --prefer-binary "
+        }
+    ]
+}

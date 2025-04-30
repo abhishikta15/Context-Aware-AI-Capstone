@@ -1,0 +1,37 @@
+{
+  "engagement": [
+    "Try incorporating interactive activities like think-pair-share or group discussions to boost engagement.",
+    "Use real-world examples and connections to make the content more relevant and interesting.",
+    "Implement gamification elements or educational games to make learning more fun.",
+    "Break the lesson into smaller, manageable chunks with frequent check-ins.",
+    "Use multimedia resources like videos, images, or interactive simulations."
+  ],
+  "confusion": [
+    "Review prerequisite concepts and provide clear connections to prior knowledge.",
+    "Use visual aids, diagrams, or concept maps to explain complex topics.",
+    "Encourage students to ask questions and create a safe space for clarification.",
+    "Provide step-by-step explanations and worked examples.",
+    "Implement frequent formative assessments to identify misconceptions early."
+  ],
+  "frustration": [
+    "Break down complex tasks into smaller, manageable steps.",
+    "Offer additional support resources and scaffolding materials.",
+    "Provide positive reinforcement and celebrate small victories.",
+    "Create opportunities for peer support and collaborative learning.",
+    "Allow flexible deadlines or alternative assessment methods when appropriate."
+  ],
+  "anxiety": [
+    "Create a supportive and non-judgmental learning environment.",
+    "Teach stress management and test-taking strategies.",
+    "Provide clear expectations and rubrics for assignments.",
+    "Offer practice opportunities and mock assessments.",
+    "Consider alternative assessment formats that reduce pressure."
+  ],
+  "default": [
+    "Maintain clear and open communication with students about their needs.",
+    "Create a supportive and inclusive learning environment.",
+    "Use diverse teaching methods to accommodate different learning styles.",
+    "Regularly collect student feedback to adjust teaching strategies.",
+    "Focus on building positive relationships with students."
+  ]
+} 

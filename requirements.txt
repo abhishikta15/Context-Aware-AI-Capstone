@@ -1,0 +1,21 @@
+# Core dependencies
+streamlit>=1.24.0
+transformers>=4.30.0
+torch>=2.0.0
+numpy>=1.24.0
+pandas==2.0.0
+sentencepiece>=0.1.99
+protobuf>=3.19.6
+accelerate>=0.20.0
+
+# Optional LLM dependencies (comment out if installation fails)
+# For basic functionality, you can comment out the line below
+# llama-cpp-python>=0.2.0
+
+# Optional Gemini API dependencies
+# For cloud-based LLM instead of local models
+google-genai>=0.5.0
+
+# Note: To install llama-cpp-python:
+# Option 1 (binary): pip install llama-cpp-python --prefer-binary
+# Option 2 (GPU): CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python --no-cache-dir 
